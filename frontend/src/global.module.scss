@@ -1,0 +1,20 @@
+@import 'reset';
+
+html {
+  background-color: #f1f1f1;
+}
+
+main {
+  padding: 2rem;
+  font-family: sans-serif;
+  color: #1f1f1f;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
