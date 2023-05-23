@@ -1,0 +1,30 @@
+.genreComponent {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: white;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+  }
+
+  ul {
+    .genreItem {
+      padding: 1rem;
+      display: flex;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid lightseagreen;
+      }
+
+      .delete {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: orangered;
+        cursor: pointer;
+        margin-left: auto;
+      }
+    }
+  }
+}

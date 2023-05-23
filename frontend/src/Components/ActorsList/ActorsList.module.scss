@@ -1,0 +1,48 @@
+.actorComponent {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: white;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+  }
+
+  ul {
+    .actorItem {
+      padding: 1rem;
+      display: flex;
+
+      &:not(:last-child) {
+        border-bottom: 1px solid lightseagreen;
+      }
+
+      .info {
+        display: flex;
+        margin-right: auto;
+
+        .name {
+          font-weight: 500;
+        }
+
+        .year {
+          padding-left: 1rem;
+          color: gray
+        }
+      }
+
+
+      .buttons {
+        padding-left: .5rem;
+
+        .delete {
+          font-size: 1.5rem;
+          font-weight: 600;
+          color: orangered;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
